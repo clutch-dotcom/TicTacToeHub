@@ -6,7 +6,7 @@ import "./App.css"
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/TicTacToeHub/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/classic" element={<ClassicTicTacToe />} />
