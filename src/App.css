@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.board-row{
+  display: flex;
+  align-items:flex-end;
+  justify-content: center;
+}
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+} */
+
+
+
+
+/* .card {
+  padding: 2em;
+} */
+
+/* .read-the-docs {
+  color: #888;
+} */
+
+.square{
+  
+  height: 12vh;
+  width: 12vh;
+  font-size: 3vh;
+  font-weight: 600;
+  font-style:initial;
+}
+
+.time{
+  padding: 1.25vh;
+  margin: 1vh;
+  margin-top: 5vh;
+  font-weight: 400;
+  height: auto;
+  width:auto;
+  font-size: 1.75vh;
+}
+
+.status{
+  margin-bottom: 1.5vh;
+  margin-top: 2.5vh;
+  font-weight:400;
+  font-style:normal;
+  font-size: 2.5vh;
+}
+
+h1{
+  font-size:5vh;
+  margin: 1.5vh;
+
+}
